@@ -1,0 +1,52 @@
+.quickreview{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 0px auto;
+    justify-content: space-evenly;
+}
+
+.quickreview .box{
+    background: #FE7E51;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.quickreview .box i{
+    background: #faf8ff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FE7E51;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.quickreview .box h2{
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.quickreview .box p{
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.quickreview .box:nth-child(2){
+    background: #4D4E8E;
+}
+
+.quickreview .box:nth-child(2) i{
+    color: #4D4E8E;
+}
+
+.quickreview .box:nth-child(3){
+    background: #F0B349;
+}
+
+.quickreview .box:nth-child(3) i{
+    color: #F0B349;
+}

@@ -1,0 +1,76 @@
+.entryform{
+    width: 100%;
+    padding: 20px;
+    border-radius: 15px;
+    background: var(--secondary);
+}
+
+.entryform .options{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.entryform .options input{
+    display: none;
+}
+
+.entryform .options label{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background: var(--background);
+    border-radius: 30px;
+}
+
+
+.entryform .options input.given:checked ~ label{
+    background: #14a800;
+    color: #fff;
+    font-weight: 600;
+}
+
+.entryform .options input.take:checked ~ label{
+    background: #a80000;
+    color: #fff;
+    font-weight: 600;
+}
+
+.entryform label{
+    color: #888;
+    font-weight: 300;
+    font-size: 12px;
+    display: block;
+    margin-top: 10px;
+}
+
+.entryform input,
+.entryform select{
+    width: 100%;
+    display: block;
+    padding: 8px 14px;
+    background: var(--background);
+    border: 0;
+    outline: 0;
+    color: #818181;
+    margin: 5px 0px;
+    border-radius: 5px;
+}
+
+.entryform button{
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 15px;
+    border: 0;
+    outline: 0;
+    background: var(--theme);
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
